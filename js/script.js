@@ -3,7 +3,7 @@ const defaultValue = 0;
 
 var arrayGrande = new Array(size);
 
-console.log(arrayGrande.fill(0));
+console.log(arrayGrande.fill(defaultValue));
 console.log(llenarArray(arrayGrande));
 
 function llenarArray(array) {
